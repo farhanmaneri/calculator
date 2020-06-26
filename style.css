@@ -1,0 +1,57 @@
+.main {
+    border: 2px solid red;
+    width:650px;
+    height: 500px;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    
+}
+.result {
+    width: 96%;
+    background-color:whitesmoke;
+    margin: 2px;
+    height: 80px;
+    margin: 10px 10px;
+}
+.input{  
+    display: flex;
+    justify-content: space-around;
+}
+
+.cBtn{
+    display: flex;
+    justify-content: space-around;
+}
+.clearBtn{
+    width: 96%;
+    background-color: blanchedalmond;
+    height: 60px;
+}
+.nBtn{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.Btn {
+    width: 23%;
+    margin: 2px;
+    height: 60px;
+    margin-top: 10px;
+}
+.hBtn {
+    display: flex;
+    justify-content: space-around;
+}
+.halfBtn {
+    margin-top: 10px;
+    width: 45%;
+    height: 60px;
+}
+@media screen and (max-width: 600px){
+    .main{
+        width: auto;
+    }
+}
+
+     
